@@ -1,0 +1,256 @@
+.body {
+    background-image: url(./img/line1-1.png)center;
+    background-size: cover;
+    padding: 100px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.photo {
+    margin: auto;
+}
+
+
+/* 電腦版 */
+@media screen and (max-width: 1920px) {
+
+    #P1 {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 0;
+    }
+
+    #P2 {
+        position: absolute;
+        top: 200px;
+        left: 930px;
+        z-index: 0;
+    }
+
+
+    #P3 {
+        position: absolute;
+        top: 680px;
+        left: 0px;
+        z-index: 0;
+    }
+
+
+    #P4 {
+        position: absolute;
+        top: 1000px;
+        left: 0px;
+        z-index: 0;
+    }
+
+    #P5 {
+        position: absolute;
+        top: 850px;
+        left: 900px;
+        z-index: 0;
+    }
+
+    /* 文字 */
+    #W1 {
+        position: absolute;
+        display: block;
+        margin: auto;
+        top: 180px;
+        left: 370px;
+        z-index: 1;
+    }
+
+    #W2 {
+        position: absolute;
+        display: block;
+        margin: auto;
+        top: 330px;
+        left: 770px;
+        z-index: 1;
+    }
+
+
+    #W3 {
+        position: absolute;
+        display: block;
+        margin: auto;
+        top: 620px;
+        left: 45px;
+        z-index: 1;
+    }
+}
+
+/* 平版 */
+
+@media screen and (max-width: 1200px) {
+
+    .photo {
+        margin-top: -710px;
+    }
+    
+
+    #P1 {
+        position: absolute;
+        top: 0px;
+        left: 20px;
+        z-index: 0;
+    }
+
+    #P2 {
+        position: absolute;
+        top: 400px;
+        left: 660px;
+        z-index: 0;
+    }
+
+
+    #P3 {
+        position: absolute;
+        top: 880px;
+        left: 20px;
+        z-index: 0;
+    }
+
+
+    #P4 {
+        position: absolute;
+        top: 1250px;
+        left: 20px;
+        z-index: 0;
+    }
+
+    #P5 {
+        position: absolute;
+        top: 1700px;
+        left: 600px;
+        z-index: 0;
+        width: 550px;
+    }
+
+    /* 文字 */
+    #W1 {
+        position: absolute;
+        display: block;
+        margin: auto;
+        top: 200px;
+        left: 390px;
+        z-index: 1;
+    }
+
+    #W2 {
+        position: absolute;
+        display: block;
+        margin: auto;
+        top: 330px;
+        left: 770px;
+        z-index: 1;
+    }
+
+
+    #W3 {
+        position: absolute;
+        display: block;
+        margin: auto;
+        top: 700px;
+        left: 140px;
+        z-index: 1;
+    }
+}
+
+
+
+
+
+
+/* 手機版 */
+@media screen and (max-width: 768px) and (min-width: 360px) {
+
+
+
+    .photo {
+        margin: auto;
+        margin-top: -700px;
+    }
+    
+
+    #P1 {
+        position: absolute;
+        top: 0px;
+        left: 25px;
+        z-index: 0;
+        width: 400px;
+    }
+
+    #P2 {
+        position: absolute;
+        top: 420px;
+        left: 100px;
+        z-index: 0;
+        width: 400px;
+    }
+
+
+    #P3 {
+        position: absolute;
+        top: 800px;
+        left: 20px;
+        z-index: 0;
+        width: 500px;
+    }
+
+
+    #P4 {
+        position: absolute;
+        top: 1000px;
+        left: 20px;
+        z-index: 0;
+        width: 430px;
+    }
+
+    #P5 {
+        position: absolute;
+        top: 1250px;
+        left: 20px;
+        z-index: 0;
+        width: 380px;
+    }
+
+    /* 文字 */
+    #W1 {
+        position: absolute;
+        display: block;
+        margin: auto;
+        top: 320px;
+        left: 100px;
+        z-index: 1;
+        width: 20%;
+      
+    }
+
+    #W2 {
+        position: absolute;
+        display: block;
+        margin: auto;
+        top: 610px;
+        left: 420px;
+        z-index: 1;
+        width: 18%;
+    }
+
+
+    #W3 {
+        position: absolute;
+        display: block;
+        margin: auto;
+        top: 720px;
+        left: 30px;
+        z-index: 1;
+        width: 22%;
+     
+    
+}
+
+
+}

@@ -1,0 +1,71 @@
+/*-- CONTACT --*/
+
+
+
+.body {
+    background-image: url(./img/底2.png);
+    background-size: cover;
+    
+}
+
+.contact {
+   
+    border-radius: 50px;
+    margin-top: 0px;
+
+    left: 0px;
+}
+
+.bg-gray {
+    background-color: #1E1E1E;
+}
+
+.bg-gray2 {
+    background-color: #2D2D2D;
+}
+
+.bg-gray3 {
+    background-color: #2C2C2C;
+}
+
+
+.imgbg {
+    display: block;
+    margin: auto;
+}
+
+#img02 {
+    opacity: 0.2;
+}
+
+#img03 {
+    opacity: 0.3;
+}
+
+/* 電腦版 */
+ @media screen and (max-width: 1920px) {
+
+    .contact {
+        margin-top: 125px;
+    }
+
+
+ } 
+
+
+
+/* 平版 */
+
+@media screen and (max-width: 1200px) {
+
+
+    .contact {
+        margin-top: -650px;
+    }
+
+
+}
+
+
+/* 手機版 */
+/* @media screen and (max-width: 768px) and (min-width: 360px) {} */

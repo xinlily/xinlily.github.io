@@ -1,0 +1,396 @@
+.box {
+	display: none;
+	margin: auto;
+
+}
+
+
+/* 電腦版 */
+@media screen and (min-width: 1200px) {
+
+	.wrap {
+		justify-content: center;
+		/* 垂直置中 */
+
+		margin: auto;
+		margin-left: 125px;
+		margin-top: 10px
+	}
+
+	.lg {
+		display: block;
+		width: 350px;
+		height: 350px;
+		margin: 20px;
+		float: left;
+		transition: .3s;
+	}
+
+	.testBox_h1 {
+		color: rgb(105, 105, 105);
+	}
+
+
+	.box h1 {
+		text-transform: uppercase;
+		text-align: center;
+		padding-top: 50px;
+		font-size: 15px;
+		letter-spacing: 1.5px;
+
+	}
+
+	.testBox_p {
+		color: rgb(105, 105, 105);
+
+	}
+
+	.box p {
+		padding: 10px;
+		text-align: center;
+	}
+
+	/* line-height */
+	/* 行高 */
+
+
+	.box .imgBox {
+		width: 100%;
+		height: 250px;
+		padding: 30px;
+		overflow: hidden;
+	}
+
+	.box img {
+		width: 100%;
+		filter: grayscale(30%) brightness(0.7);
+		transition: .3s;
+	}
+
+
+	/* 按鈕 */
+	.buy {
+		display: block;
+		width: 150px;
+		height: 40px;
+		border: none;
+		margin: auto;
+		background-color: #232323;
+		color: white;
+		text-decoration: none;
+		border-radius: 20px;
+		transition: .3s;
+
+	}
+
+	.fa-solid {
+		color: white;
+	}
+
+	/* 指向Icon */
+	.fa-solid:hover {
+		color: rgb(191, 191, 191);
+	}
+
+
+	/* 指向文字 */
+	.testBox_h1:hover {
+		color: rgb(191, 191, 191);
+		/* 文字變色 */
+	}
+
+	.box:hover {
+		cursor: pointer;
+		color: rgb(191, 191, 191);
+		/* 文字變色 */
+
+	}
+
+	/* 指向文字 */
+	.testBox_p:hover {
+		color: rgb(191, 191, 191);
+		/* 文字變色 */
+	}
+
+
+
+	/* 指向按鈕 */
+	.buy:hover {
+		background-color: rgb(44, 44, 44);
+		/* 按鈕底色 */
+		color: rgb(220, 220, 220);
+	}
+
+	.box:hover img {
+		filter: grayscale(0) brightness(1);
+		transform: scale(1.5);
+	}
+
+	.fix {
+		width: auto;
+		height: 100px;
+		margin-top: 925px;
+		background-color: #1E1E1E;
+		clear: both;
+
+	}
+
+
+}
+
+/* 平板 */
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+
+
+
+	.wrap {
+		justify-content: center;
+		margin: auto;
+		margin-left: 125px;
+		margin-top: -620px
+	}
+
+
+	.md {
+		display: block;
+		width: 100%;
+		height: 300px;
+		border: none;
+		margin: 10px 0;
+		/*float: left;*/
+		transition: .3s;
+	}
+
+	.testBox_h1 {
+		color: rgb(105, 105, 105);
+		font-size: 35px;
+	}
+
+	.box h1 {
+		text-transform: uppercase;
+		text-align: center;
+		padding-top: 60px;
+		font-size: 15px;
+		letter-spacing: 1.5px;
+	}
+
+	.testBox_p {
+		color: rgb(105, 105, 105);
+
+	}
+
+	.box p {
+		padding: 30px;
+		text-align: center;
+
+
+	}
+
+	.box .imgBox {
+		width: 350px;
+		height: 100%;
+		overflow: hidden;
+		float: left;
+	}
+
+	.box img {
+		width: 100%;
+		filter: grayscale(30%) brightness(0.7);
+		transition: .3s;
+	}
+
+	/* 按鈕 */
+	.buy {
+		display: block;
+		width: 150px;
+		height: 40px;
+		border: none;
+		background-color: #232323;
+		color: white;
+		margin: auto;
+		text-align: center;
+		text-decoration: none;
+		border-radius: 20px;
+		transition: .3s;
+	}
+
+
+	.fa-solid {
+		color: white;
+	}
+
+	/* 指向Icon */
+	.fa-solid:hover {
+		color: rgb(191, 191, 191);
+	}
+
+	/* 指向文字 */
+
+	.testBox_h1:hover {
+		color: rgb(191, 191, 191);
+		/* 文字變色 */
+	}
+
+	.box:hover {
+		cursor: pointer;
+		color: rgb(220, 220, 220);
+		/* 文字變色 */
+	}
+
+
+	/* 指向文字 */
+	.testBox_p:hover {
+		color: rgb(191, 191, 191);
+		/* 文字變色 */
+	}
+
+
+	/* 指向按鈕 */
+	.buy:hover {
+		background-color: rgb(44, 44, 44);
+		/* 按鈕底色 */
+		color: rgb(220, 220, 220);
+	}
+
+	.box:hover img {
+		filter: grayscale(0) brightness(1);
+		transform: scale(1.5);
+	}
+
+
+	.textBox {
+		padding: 10px 20px;
+		width: calc(100% - 350px);
+		float: left;
+	}
+
+	.fix {
+		width: auto;
+		height: 100px;
+		margin: auto;
+		background-color: #1E1E1E;
+		clear: both;
+
+	}
+
+
+}
+
+/* 手機版 */
+@media screen and (max-width: 768px) {
+
+	.wrap {
+		margin: auto;
+		margin-top: -620px
+	}
+
+
+	.sm {
+		display: block;
+		width: 100%;
+		height: auto;
+		margin: 10px 0;
+		/*float: left;*/
+		transition: .3s;
+	}
+
+	.testBox_h1 {
+		color: rgb(105, 105, 105);
+	}
+
+	.box h1 {
+		text-transform: uppercase;
+		text-align: center;
+		padding-top: 10px;
+		font-size: 14px;
+		letter-spacing: 1.5px;
+	}
+
+	.testBox_p {
+		color: rgb(105, 105, 105);
+
+	}
+
+	.box p {
+		padding: 10px;
+		text-align: center;
+		font-size: 14px;
+	}
+
+	.box .imgBox {
+		width: 100%;
+		height: 200px;
+		overflow: hidden;
+		/*float: left;*/
+	}
+
+	.box img {
+		width: 100%;
+		filter: grayscale(50%) brightness(0.7);
+		transition: .3s;
+	}
+
+	/* 按鈕 */
+	.buy {
+		display: block;
+		width: 150px;
+		height: 40px;
+		border: 0 solid white;
+		margin: auto;
+		background-color: #232323;
+		color: white;
+		text-align: center;
+		text-decoration: none;
+		border-radius: 20px;
+		transition: .3s;
+	}
+
+
+	.fa-solid {
+		color: white;
+	}
+
+	/* 指向Icon */
+	.fa-solid:hover {
+		color: rgb(191, 191, 191);
+	}
+
+	/* 指向文字 */
+
+	.testBox_h1:hover {
+		color: rgb(191, 191, 191);
+		/* 文字變色 */
+	}
+
+	.box:hover {
+		cursor: pointer;
+		/* color: rgb(220, 220, 220); */
+		/* 文字變色 */
+	}
+
+	/* 指向文字 */
+	.testBox_p:hover {
+		color: rgb(191, 191, 191);
+		/* 文字變色 */
+	}
+
+	/* 指向按鈕 */
+	.buy:hover {
+		background-color: rgb(44, 44, 44);
+
+		/* 按鈕底色 */
+		color: rgb(220, 220, 220);
+	}
+
+	.box:hover img {
+		filter: grayscale(0) brightness(1);
+		transform: scale(1.5);
+	}
+
+	.textBox {
+		padding: 20px 20px;
+		width: 100%;
+		/*float: left;*/
+
+	}
+}

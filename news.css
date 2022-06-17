@@ -1,0 +1,294 @@
+/* .body {
+    background-image: url(./img/line2.png);
+    padding: 100px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    font-family: "Imprint MT Shadow";
+    font-size: 20px;
+    line-height: 46px;
+    letter-spacing: 1.5px;
+} */
+
+.photo {
+    margin: auto;
+    background-image: url(./img/line2.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    flex: auto;
+    font-family: "Imprint MT Shadow";
+}
+
+/* 電腦版 */
+@media screen and (max-width: 1920px) {
+
+    #P1 {
+        position: absolute;
+        top: 0px;
+        left: 160px;
+        z-index: 0;
+        border-radius: 3px 50px 50px 3px;
+    }
+
+    #P2 {
+        position: absolute;
+        top: 0px;
+        left: 820px;
+        z-index: 0;
+        border-radius: 3px 50px 3px 50px;
+    }
+
+    #P3 {
+        position: absolute;
+        top: 245px;
+        left: 350px;
+        z-index: -1;
+        border-radius: 50px 50px 3px 50px;
+    }
+
+    #P4 {
+        position: absolute;
+        top: 240px;
+        left: 1000px;
+        z-index: -1;
+        border-radius: 50px 50px 3px 50px;
+    }
+
+
+    #P5 {
+        position: absolute;
+        top: -80px;
+        display: block;
+        margin: auto;
+        z-index: 0;
+        border-radius: 3px 50px 3px 30px;
+    }
+
+
+    /* 文字 */
+    #W {
+        position: absolute;
+        display: block;
+        margin: auto;
+        top: 259px;
+        left: 650px;
+        z-index: 0;
+    }
+
+    #W1 {
+        position: absolute;
+        display: block;
+        margin: auto;
+        top: 150px;
+        left: 450px;
+        z-index: 0;
+    }
+
+    #W2 {
+        position: absolute;
+        display: block;
+        margin: auto;
+        top: 150px;
+        left: 1150px;
+        z-index: 0;
+    }
+
+    #W3 {
+        position: absolute;
+        display: block;
+        margin: auto;
+        top: 600px;
+        left: 280px;
+        z-index: 0;
+    }
+
+    #W4 {
+        position: absolute;
+        display: block;
+        margin: auto;
+        top: 470px;
+        left: 800px;
+        z-index: 0;
+    }
+
+    #W5 {
+        position: absolute;
+        display: block;
+        margin: auto;
+        top: 900px;
+        left: 670px;
+        z-index: 0;
+    }
+
+
+}
+
+/* 平版 */
+
+@media screen and (max-width: 1200px) {
+    .photo {
+        background-image: url(./img/line2.png);
+        margin-left: -130px;
+        margin-top: -700px;
+    }
+
+
+    #P1 {
+        position: absolute;
+        top: 120px;
+        left: 200px;
+        z-index: 1;
+    }
+
+    #P2 {
+        position: absolute;
+        top: 0px;
+        left: 820px;
+    }
+
+    #P3 {
+        position: absolute;
+        top: 450px;
+        left: 500px;
+    }
+
+
+
+    #P4 {
+        position: absolute;
+        top: 750px;
+        left: 900px;
+    }
+
+    #W {
+        position: absolute;
+        top: 425px;
+        left: 700px;
+
+    }
+
+
+
+    #W2 {
+        position: absolute;
+        top: 130px;
+        left: 900px;
+
+    }
+
+    #W3 {
+        position: absolute;
+        top: 630px;
+        left: 280px;
+
+    }
+
+    #W4 {
+        position: absolute;
+        top: 900px;
+        left: 650px;
+
+    }
+
+
+    #W5 {
+        position: absolute;
+        top: 1350px;
+        left: 820px;
+
+    }
+
+}
+
+
+
+
+
+
+/* 手機版 */
+@media screen and (max-width: 768px) and (min-width: 360px) {
+    .photo {
+        background-image: url(./img/line2.png);
+        margin-left: -130px;
+        margin-top: -600px;
+    }
+
+    #P1 {
+        position: absolute;
+        top: -60px;
+        left: 220px;
+        z-index: 0;
+        border-radius: 3px 30px 3px 30px;
+    }
+
+
+
+    #P2 {
+        position: absolute;
+        top: 500px;
+        left: 160px;
+        z-index: 0;
+        border-radius: 3px 30px 3px 30px;
+    }
+
+
+    #P3 {
+        position: absolute;
+        top: 220px;
+        left: 320px;
+
+    }
+
+
+
+    #P4 {
+        position: absolute;
+        top: 700px;
+        left: 370px;
+
+
+    }
+
+    #W {
+        position: absolute;
+        top: -90px;
+        left: 180px;
+        width: 30%;
+
+    }
+
+    #W1{
+        position: absolute;
+        top: 100px;
+        left: 500px;
+        width: 18%;
+        width: 18%;
+    }
+
+    #W2 {
+        position: absolute;
+        top: 600px;
+        left: 280px;
+        width: 18%;
+    }
+
+    #W3 {
+        position: absolute;
+        top: 325px;
+        left: 460px;
+        width: 18%;
+    }
+
+    #W4 {
+        position: absolute;
+        top: 930px;
+        left: 350px;
+        width: 20%;
+    }
+    #W5 {
+       
+        display: none;
+    }
+}

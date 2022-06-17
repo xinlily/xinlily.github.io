@@ -1,0 +1,47 @@
+/*-- ABOUT --*/
+
+
+/* 電腦版 */
+@media screen and (max-width: 1920px) {
+    .container-about {
+
+        background-image: url(./img/line1.png);
+        padding: 100px;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        color: aliceblue;
+        font-family: "Imprint MT Shadow";
+        font-size: 16px;
+        line-height: 46px;
+        letter-spacing: 1.5px;
+
+    }
+
+
+
+}
+
+/* 平版 */
+@media screen and (max-width: 1200px) {
+
+    .container-about {
+
+        margin-top: -750px;
+        font-size: 15px;
+
+    }
+
+
+}
+
+
+
+
+/* 手機版 */
+@media screen and (max-width: 768px) and (min-width: 360px) {
+    .container-about {
+
+        font-size: 12px;
+    }
+}

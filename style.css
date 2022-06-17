@@ -1,0 +1,283 @@
+/*-- 電腦 Navbar--*/
+
+
+.img-NAV-TWILIGHT {
+    display: inline-block;
+    margin: auto
+}
+
+.navbar-nav {
+    font-size: 16px;
+    position: relative;
+    font-family: "Helvetica", "NotoSansSC";
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #1E1E1E;
+    width: 100%;
+    height: 25%;
+    /* position: fixed; */
+    /* 固定 */
+}
+
+
+.nav-item {
+    display: inline-block;
+    width: 250px;
+}
+
+.nav-link {
+    white-space: nowrap;
+}
+
+
+/*-- 手機 Navbar--*/
+
+/* 
+.container-all {
+    display: flex;
+    align-items: stretch;
+} 
+
+ .container-right {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding: 0;
+    display: flex;
+    align-items: stretch;
+} 
+*/
+
+
+#sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #2C2C2C;
+    color: white;
+    transition: 0.8s;
+}
+
+/* 顯示側邊欄 bar */
+#sidebar.active {
+    margin-left: 250px;
+}
+
+/* 關閉側邊欄 collapse */
+/* #sidebar.active2 {
+    margin-left: -250px;
+} */
+
+
+
+/* 按鈕 */
+
+
+
+.bar-btn {
+    position: relative;
+    /* top: 0%;
+     margin-left: -150%; */
+    left: 0;
+    color: white;
+    background-color: #1E1E1E;
+    border: none;
+    font-size: 30px;
+    
+    /* padding: 5px; */
+    /* z-index: 1;  */
+
+}
+
+
+.bar-btn:hover {
+    color: rgb(190, 190, 190);
+    transition: 0.4s;
+}
+
+
+.collapse-btn {
+    position: relative;
+    top: 1%;
+    left: 200px;
+    color: white;
+    background-color: #2C2C2C;
+    border: none;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.collapse-btn:hover {
+    color: rgb(191, 191, 191);
+    background-color: #2C2C2C;
+    transition: 0.4s;
+}
+
+
+
+/* 側邊欄logo */
+#sidebar img {
+    padding-top: 0px;
+    padding-left: 10px;
+    margin-top: -30%;
+
+}
+
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    display: block;
+    text-decoration: none;
+    /* 底線 */
+    color: white
+}
+
+
+#sidebar ul li a:hover {
+    color: rgb(191, 191, 191);
+
+}
+
+
+
+
+
+
+/* 電腦版 */
+@media screen and (max-width: 1920px) {
+
+    .bar-btn {
+        display: none;
+    }
+
+    /* 側邊欄 */
+    #sidebar {
+        display: none;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1200px)  {
+
+    .img-NAV-TWILIGHT {
+
+        margin-right: 26%;
+		 display: inline-block;
+        width: 100px;
+    }
+
+    .bar-btn {
+        display: block;
+        /* 出現 */
+        position: relative;
+        margin-left: -145%;
+    }
+	
+    .phone {
+        display: none;
+    }
+
+    .nav-item {
+        display: inline-block;
+        width: 150px;
+    }
+
+
+  
+
+    /* 側邊欄 */
+    #sidebar {
+        display: block;
+        /* 出現 */
+        width: 250px;
+        margin-left: -250px;
+        /* 一開始ㄉ */
+    }
+
+    #sidebar.active {
+        margin-left: 0px;
+        /* 動ㄌ */
+    }
+}
+
+
+/* 手機版 */
+@media screen and (max-width: 768px) and (min-width: 360px) {
+
+
+    .phone {
+        display: none;
+    }
+
+    .img-NAV-TWILIGHT {
+        display: inline-block;
+        width: 50px;
+        margin-right: 23%;
+    }
+
+    .bar-btn {
+     
+        margin-left: -100%;
+        /* 和左邊ㄉ距離 */
+
+        font-size: 25px;
+        /* 尺寸 */
+
+    }
+
+
+    .collapse-btn {
+        top: 13px;
+        left: 190px;
+        font-size: 28px;
+        padding: 10px;
+    }
+
+
+
+    /* 側邊欄 */
+    #sidebar {
+        width: 235px;
+        margin-left: -235px;
+        /* 一開始ㄉ */
+    }
+
+    #sidebar.active {
+        margin-left: 0px;
+        /* 動ㄌ */
+    }
+
+    /* 側邊欄logo */
+    #sidebar img {
+        padding-top: 0px;
+        padding-left: 19px;
+        margin-top: -30%;
+
+    }
+
+    /* 側邊欄文字 */
+    #sidebar ul li a {
+        padding: 10px;
+        padding-left: 19px;
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+
+}
+
+
+
